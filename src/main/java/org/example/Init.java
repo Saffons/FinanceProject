@@ -20,9 +20,6 @@ public class Init {
         }
         userList = new ArrayList<>();
         userList = Database.getUserList();
-        for (Integer integer : userList) {
-            System.out.println(integer);
-        }
 
         mainMenu();
     }
